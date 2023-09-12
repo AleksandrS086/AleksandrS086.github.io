@@ -7,5 +7,5 @@
 
 <p><a href="/story.html" target="_self">Go to the article</a><br>
   <a href="/First Playa Eco-Festival.pdf" target="_self">Download the PDF</a><br>
-  <a hre="https://riviera-maya-news.com/" target="_blank">A news source for Playa Del Carmen</a>
+  <a href="https://riviera-maya-news.com/" target="_blank">A news source for Playa Del Carmen</a>
 </p>
