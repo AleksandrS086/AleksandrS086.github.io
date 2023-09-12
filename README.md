@@ -6,6 +6,6 @@
 </pre>
 
 <p><a href="/story.html" target="_self">Go to the article</a><br>
-  <a href="/First Playa Eco-Festival.pdf" target="_self">Download the PDF</a><br>
+  <a href="/First Playa Eco-Festival.pdf" target="_blank">Download the PDF</a><br>
   <a href="https://riviera-maya-news.com/" target="_blank">A news source for Playa Del Carmen</a>
 </p>
