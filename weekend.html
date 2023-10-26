@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Calculator</title>
+    <script>
+        function isSchoolDay(dayOfWeek) {
+            return dayOfWeek >= 1 && dayOfWeek <= 5;
+        }
+
+        function daysUntilWeekend(dayOfWeek) {
+            return 5 - dayOfWeek;
+        }
+
+        function hoursInWeekend(dayOfWeek) {
+            if (dayOfWeek === 5) {
+                return 24;
+            } else if (dayOfWeek === 6) {
+                return 24 * 2;
+            } else {
+                return 0;
+            }
+        }
+
+        const today = new Date().getDay();
+
+        if (isSchoolDay(today)) {
+            alert("It's a school day.");
+            const daysLeft = daysUntilWeekend(today);
+            if (daysLeft === 1) {
+                alert(`There is ${daysLeft} day left until the weekend.`);
+            } else {
+                alert(`There are ${daysLeft} days left until the weekend.`);
+            }
+        } else {
+            alert("It's the weekend.");
+            const hoursLeft = hoursInWeekend(today);
+            if (hoursLeft === 1) {
+                alert(`There is ${hoursLeft} hour left in the weekend.`);
+            } else {
+                alert(`There are ${hoursLeft} hours left in the weekend.`);
+            }
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
