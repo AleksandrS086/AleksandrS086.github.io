@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Embedding Video Tutorial</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Embedding a Service-Hosted Video into Your Website</h1>
+    </header>
+
+    <section id="step1">
+        <h2>Step 1: Choose a Video Hosting Service</h2>
+        <p>Select a video hosting service that supports video embedding. The most popular choice is YouTube.</p>
+    </section>
+
+    <section id="step2">
+        <h2>Step 2: Choose Your Video</h2>
+        <p>Choose the video you want on the chosen hosting service. Ensure that the video's privacy settings allow for embedding if that's a requirement for your project.</p>
+
+        <img src="/tutorial/imgs/youtube_homepage.png" alt="screenshot of step 2 on youtube">
+    </section>
+
+    <section id="step3">
+        <h2>Step 3: Locate the Embed Code</h2>
+        <p>On YouTube:</p>
+        <ol>
+            <li>Open your video on YouTube.</li>
+            <li>Click on the "Share" button below the video.</li>
+            <li>Select the "Embed" option.</li>
+            <li>Copy the provided embed code.</li>
+        </ol>
+
+        <img src="/tutorial/imgs/embed_code.png" alt="Screenshot of Step 3 on YouTube">
+
+    </section>
+
+    <section id="step4">
+        <h2>Step 4: Insert the Embed Code into Your Website</h2>
+        <ol>
+            <li>Open your HTML file.</li>
+            <li>Find the location in your HTML where you want to embed the video.</li>
+            <li>Paste the copied embed code into that location.</li>
+        </ol>
+
+        <img src="/tutorial/imgs/final_code.png" alt="Screenshot of Step 4">
+    </section>
+
+    <section id="step5">
+        <h2>Step 5: Adjust Video Size (Optional)</h2>
+        <p>If you want to customize the video size, modify the width and height attributes in the embed code. Ensure that the aspect ratio is maintained.</p>
+        <code>
+            &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+        </code>
+    </section>
+
+    <section id="step6">
+        <h2>Step 6: Save and Preview</h2>
+        <p>Save your HTML file and open it in a web browser to preview your embedded video.</p>
+    </section>
+
+    <section id="example-video">
+        <h2>Example Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WtwUCEosGxc?si=KHAta5i_1IXDVVTR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+</body>
+</html>
