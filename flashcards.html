@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flashcard Review</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.card {
+    width: 33%;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.question, .answer {
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
+}
+
+.answer {
+    transform: translateY(150px); /* Initially hidden below the question */
+}
+
+.card:hover .question {
+    transform: translateY(-150px);
+}
+
+.card:hover .answer {
+    transform: translateY(0);
+}
+
+    </style>
+</head>
+<body>
+    <h1 class="title">Flashcard Assignment</h1>
+
+    <div class="container">
+
+    <div class="card" id="card1">
+        <div class="question">Question 1</div>
+        <div class="answer">Answer 1</div>
+    </div>
+
+    <div class="card" id="card1">
+        <div class="question">Question 2</div>
+        <div class="answer">Answer 2</div>
+    </div>
+
+    <div class="card" id="card1">
+        <div class="question">Question 3</div>
+        <div class="answer">Answer 3</div>
+    </div>
+
+    <div class="card" id="card1">
+        <div class="question">Question 4</div>
+        <div class="answer">Answer 4</div>
+    </div>
+
+    <div class="card" id="card1">
+        <div class="question">Question 5</div>
+        <div class="answer">Answer 5</div>
+    </div>
+
+    <div class="card" id="card1">
+        <div class="question">Question 6</div>
+        <div class="answer">Answer 6</div>
+    </div>
+
+    <div class="card" id="card1">
+        <div class="question">Question 7</div>
+        <div class="answer">Answer 7</div>
+    </div>
+
+    <div class="card" id="card1">
+        <div class="question">Question 8</div>
+        <div class="answer">Answer 8</div>
+    </div>
+
+    </div>
+
+    <!-- Repeat the structure for additional cards -->
+
+    <script src="script.js"></script>
+</body>
+</html>
