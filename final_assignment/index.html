@@ -1,0 +1,65 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tennis Enthusiasts Club</title>
+  <style>
+    .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 20px;
+    }
+
+    .slide {
+    display: none;
+    }
+
+    img {
+    width: 100%;
+    height: 80vh;
+    }
+
+    .fade {
+        opacity: 1;
+        transition-duration: 1000ms;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Tennis Enthusiasts Club</h1>
+    </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Discover the Joy of Tennis with Us</h2>
+    <p>Join our community of tennis enthusiasts. Whether you're a beginner or a seasoned player, there's a place for you here.</p>
+    <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="/final_assignment/imgs/tennis-img-1.webp" id="enlargeImage">
+        </div>
+        <div class="slide fade">
+          <img src="/final_assignment/imgs/tennis-img-2.webp" id="enlargeImage">
+        </div>
+        <div class="slide fade">
+          <img src="/final_assignment/imgs/tennis-img-3.jpeg" id="enlargeImage">
+        </div>
+      </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Tennis Enthusiasts Club. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- about.html, services.html, and contact.html have a similar structure with unique content -->
